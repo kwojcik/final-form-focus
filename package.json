@@ -10,8 +10,7 @@
   ],
   "type": "module",
   "exports": {
-    "require": "./dist/final-form-focus.cjs.js",
-    "import": "./dist/final-form-focus.es.js"
+    "import": "./src/index.js"
   },
   "scripts": {
     "start": "nps",
