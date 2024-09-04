@@ -8,6 +8,11 @@
   "files": [
     "dist"
   ],
+  "type": "module",
+  "exports": {
+    "require": "./dist/final-form-focus.cjs.js",
+    "import": "./dist/final-form-focus.es.js"
+  },
   "scripts": {
     "start": "nps",
     "test": "nps test",
